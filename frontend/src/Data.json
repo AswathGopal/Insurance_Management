@@ -1,0 +1,338 @@
+[
+    {
+        "id": 1,
+        "name": "Health Insurance",
+        "description": "Provides coverage for medical expenses, including hospitalization, doctor visits, and prescription drugs, ensuring financial protection against unexpected healthcare costs.",
+        "img": "/img/new_health.jpg",
+        "plans": [
+            {
+                "id": 1,
+                "name": "silver",
+                "description": "Provides basic coverage for essential medical expenses such as doctor visits and prescription drugs.",
+                "img": "/img/silver-1.jpg",
+                "url": "/payment",
+                "price": "$200/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Doctor visits",
+                    "Prescription drugs",
+                    "Basic medical procedures"
+                ],
+                "deductible": "$1000",
+                "co-payment": "20%",
+                "maximum coverage limit": "$100,000",
+                "additional benefits": [
+                    "Free annual check-up",
+                    "Discounts on wellness programs"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "gold",
+                "description": "Offers comprehensive coverage including hospitalization and specialist consultations.",
+                "img": "/img/Gold-1.jpg",
+                "url": "/payment",
+                "price": "$350/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Hospitalization",
+                    "Specialist consultations",
+                    "Surgical procedures"
+                ],
+                "deductible": "$500",
+                "co-payment": "15%",
+                "maximum coverage limit": "$250,000",
+                "additional benefits": [
+                    "Dental coverage",
+                    "Vision care"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "platinum",
+                "description": "Offers the highest level of coverage, including additional benefits such as dental and vision care.",
+                "img": "/img/platinum-1.jpg",
+                "url": "/payment",
+                "price": "$500/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Comprehensive hospitalization",
+                    "Specialist consultations",
+                    "Emergency medical evacuation"
+                ],
+                "deductible": "$250",
+                "co-payment": "10%",
+                "maximum coverage limit": "Unlimited",
+                "additional benefits": [
+                    "Maternity coverage",
+                    "Mental health coverage"
+                ]
+            }
+        ],
+        "link": "/view-plans"
+    },
+    {
+        "id": 2,
+        "name": "Car Insurance",
+        "description": "Offers financial protection against damages to your vehicle and liabilities arising from accidents, theft, or natural disasters, helping to cover repair or replacement costs.",
+        "img": "/img/car-1.jpg",
+        "plans": [
+            {
+                "id": 2,
+                "name": "silver",
+                "description": "Provides coverage for basic damages to your vehicle and liabilities from accidents.",
+                "img": "/img/silver-1.jpg",
+                "url": "/payment",
+                "price": "$150/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Collision damage",
+                    "Liability coverage",
+                    "Personal injury protection"
+                ],
+                "deductible": "$1000",
+                "additional benefits": [
+                    "Rental car reimbursement",
+                    "Towing and roadside assistance"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "gold",
+                "description": "Offers enhanced coverage including coverage for theft and natural disasters.",
+                "img": "/img/Gold-1.jpg",
+                "url": "/payment",
+                "price": "$250/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Comprehensive coverage",
+                    "Theft protection",
+                    "Natural disaster coverage"
+                ],
+                "deductible": "$750",
+                "additional benefits": [
+                    "Emergency accommodation and transport",
+                    "Loss of personal belongings"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "platinum",
+                "description": "Offers comprehensive coverage including roadside assistance and rental car reimbursement.",
+                "img": "/img/platinum-1.jpg",
+                "url": "/payment",
+                "price": "$350/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Extended roadside assistance",
+                    "Rental car reimbursement",
+                    "Accidental damage coverage"
+                ],
+                "deductible": "$500",
+                "additional benefits": [
+                    "Coverage for accessories",
+                    "Emergency repair service"
+                ]
+            }
+        ],
+        "link": "/view-plans"
+    },
+    {
+        "id": 3,
+        "name": "Bike Insurance",
+        "description": "Protects against damages or theft of your motorcycle, offering coverage for repair costs, medical expenses, and liabilities arising from accidents, ensuring peace of mind on the road.",
+        "img": "/img/car.jpg",
+        "plans": [
+            {
+                "id": 3,
+                "name": "silver",
+                "description": "Provides coverage for basic damages and liabilities for your motorcycle.",
+                "img": "/img/silver-1.jpg",
+                "url": "/payment",
+                "price": "$100/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Basic damage coverage",
+                    "Liability coverage",
+                    "Medical expenses coverage"
+                ],
+                "deductible": "$500",
+                "additional benefits": [
+                    "Roadside assistance",
+                    "Emergency repair service"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "gold",
+                "description": "Offers enhanced coverage including coverage for medical expenses and roadside assistance.",
+                "img": "/img/Gold-1.jpg",
+                "url": "/payment",
+                "price": "$180/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Extended medical coverage",
+                    "Enhanced roadside assistance",
+                    "Theft protection"
+                ],
+                "deductible": "$300",
+                "additional benefits": [
+                    "Temporary accommodation",
+                    "Legal assistance"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "platinum",
+                "description": "Offers comprehensive coverage including coverage for accessories and gear.",
+                "img": "/img/platinum-1.jpg",
+                "url": "/payment",
+                "price": "$250/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Comprehensive damage coverage",
+                    "Accessory coverage",
+                    "Gear coverage"
+                ],
+                "deductible": "$250",
+                "additional benefits": [
+                    "Emergency evacuation coverage",
+                    "Personal accident coverage"
+                ]
+            }
+        ],
+        "link": "/view-plans"
+    },
+    {
+        "id": 4,
+        "name": "Home Insurance",
+        "description": "Safeguards your home and belongings against damages from perils like fire, theft, or natural disasters, providing financial assistance for repairs or replacements and liability protection for accidents on your property.",
+        "img": "/img/home.jpg",
+        "plans": [
+            {
+                "id": 4,
+                "name": "silver",
+                "description": "Provides coverage for basic damages to your home and belongings from common perils.",
+                "img": "/img/silver-1.jpg",
+                "url": "/payment",
+                "price": "$120/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Fire damage coverage",
+                    "Theft protection",
+                    "Liability coverage"
+                ],
+                "deductible": "$1000",
+                "additional benefits": [
+                    "Temporary accommodation",
+                    "Emergency repair service"
+                ]
+            },
+            {
+                "id": 4,
+                "name": "gold",
+                "description": "Offers enhanced coverage including coverage for personal liability and additional living expenses.",
+                "img": "/img/Gold-1.jpg",
+                "url": "/payment",
+                "price": "$220/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Comprehensive damage coverage",
+                    "Personal liability coverage",
+                    "Additional living expenses coverage"
+                ],
+                "deductible": "$750",
+                "additional benefits": [
+                    "Legal assistance",
+                    "Temporary accommodation"
+                ]
+            },
+            {
+                "id": 4,
+                "name": "platinum",
+                "description": "Offers comprehensive coverage including coverage for high-value items and extended replacement cost.",
+                "img": "/img/platinum-1.jpg",
+                "url": "/payment",
+                "price": "$320/month",
+                "duration": "1 year",
+                "coverage": [
+                    "Extended coverage for high-value items",
+                    "Replacement cost coverage",
+                    "Natural disaster coverage"
+                ],
+                "deductible": "$500",
+                "additional benefits": [
+                    "Emergency repair service",
+                    "Temporary accommodation"
+                ]
+            }
+        ],
+        "link": "/view-plans"
+    },
+    {
+        "id": 5,
+        "name": "Travel Insurance",
+        "description": "Provides coverage for unforeseen events during travel, including trip cancellations, medical emergencies, lost baggage, or travel delays, offering peace of mind and financial assistance when away from home.",
+        "img": "/img/travel.jpg",
+        "plans": [
+            { 
+                "id": 5,
+                "name": "silver",
+                "description": "Provides coverage for basic trip cancellations and medical emergencies.",
+                "img": "/img/silver-1.jpg",
+                "url": "/payment",
+                "price": "$70/trip",
+                "duration": "1 trip",
+                "coverage": [
+                    "Trip cancellation coverage",
+                    "Medical emergency coverage",
+                    "Emergency evacuation"
+                ],
+                "deductible": "$0",
+                "additional benefits": [
+                    "Lost baggage coverage",
+                    "Travel delay coverage"
+                ]
+            },
+            {  
+                "id": 5,
+                "name": "gold",
+                "description": "Offers enhanced coverage including coverage for lost baggage and travel delays.",
+                "img": "/img/Gold-1.jpg",
+                "url": "/payment",
+                "price": "$120/trip",
+                "duration": "1 trip",
+                "coverage": [
+                    "Extended trip cancellation coverage",
+                    "Lost baggage coverage",
+                    "Travel delay coverage"
+                ],
+                "deductible": "$0",
+                "additional benefits": [
+                    "Emergency medical expenses coverage",
+                    "Emergency evacuation"
+                ]
+            },
+            {
+                "id": 5,
+                "name": "platinum",
+                "description": "Offers comprehensive coverage including coverage for pre-existing medical conditions and emergency medical evacuation.",
+                "img": "/img/platinum-1.jpg",
+                "url": "/payment",
+                "price": "$200/trip",
+                "duration": "1 trip",
+                "coverage": [
+                    "Comprehensive trip cancellation coverage",
+                    "Pre-existing medical condition coverage",
+                    "Emergency medical evacuation"
+                ],
+                "deductible": "$0",
+                "additional benefits": [
+                    "Lost baggage coverage",
+                    "Travel delay coverage"
+                ]
+            }
+        ],
+        "link": "/view-plans"
+    }
+]
