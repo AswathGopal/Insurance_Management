@@ -1,13 +1,13 @@
 - *JWT Authentication*: Secure user authentication using JSON Web Tokens (JWT).
 - *Insurance Viewing and Purchase*: Users can browse available insurance plans and purchase them.
 - *Claim Insurance*: Users can file insurance claims conveniently through the website.
-- *Payment Integration*: Seamless payment integration allows users to make payments for insurance plans and claims.
+
 
 ## Tech Stack
 
 - *Frontend*: Built with React.js and styled using Tailwind CSS and Material-UI.
 - *Backend*: Powered by Node.js and Express.js to handle server-side logic and API requests.
-- *Database*: Utilizes a database system (please specify the database system you intend to use, e.g., MongoDB, MySQL, etc.) to store user information, insurance plans, and claim details.
+- *Database*: Utilizes a database system ( MySQL) to store user information, insurance plans, and claim details.
 
 ## Setup
 
